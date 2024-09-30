@@ -13,5 +13,7 @@ const pocetdenne = 174
 const pocetpredstaveni = 15
 let prijem = cena * pocetdenne * pocetpredstaveni
 
-document.body.innerHTML += <p> prijem </p> 
+let prijemStudenti = prijem * 0.4 * 0.65 
+
+document.body.innerHTML += "<p> Měsíční příjem divadla je " +  prijem + " Kč</p> "
 
